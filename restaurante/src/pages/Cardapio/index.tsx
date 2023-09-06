@@ -1,12 +1,14 @@
 
 import Logo from 'assets/logo.svg'
 import styles from './Cardapio.module.scss'
-import Buscador from './buscador/index';
+import buscador from './buscador/index';
 import { useState } from 'react';
+import Buscador from './buscador/index';
+import Filtros from './filtros';
 export default function Cardapio(){
 
     return(
-const [busca,setBusca]=useState("");
+
 <main>
   <nav className={styles.menu}>
 <img src={Logo} alt="Logo restaurante" />
@@ -19,7 +21,10 @@ const [busca,setBusca]=useState("");
 </header>
 <section className={styles.cardapio}>
   <h3 className={styles.cardapio__titulo}>cardapio</h3>
-<buscador busca={busca} setBusca={setBusca}
+<Buscador busca={busca} setBusca={setBusca}
+<div className={styles.cardapio__filtros}>
+  <Filtros/>
+</div>
 </section>
 
 

@@ -1,0 +1,22 @@
+[
+  {
+  "id":1,
+  "label": "massas"
+
+},
+{
+  "id":2,
+  "label": "carnes"
+
+},
+{
+  "id":3,
+  "label": "combos"
+
+},
+{
+  "id":4,
+  "label": "veganos"
+
+}
+]
