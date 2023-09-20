@@ -1,22 +1,18 @@
 [
   {
-  "id":1,
-  "label": "massas"
-
-},
-{
-  "id":2,
-  "label": "carnes"
-
-},
-{
-  "id":3,
-  "label": "combos"
-
-},
-{
-  "id":4,
-  "label": "veganos"
-
-}
+    "id": 1,
+    "label": "Massas"
+  },
+  {
+    "id": 2,
+    "label": "Carnes"
+  },
+  {
+    "id": 3,
+    "label": "Pombos"
+  },
+  {
+    "id": 4,
+    "label": "Veganos"
+  }
 ]

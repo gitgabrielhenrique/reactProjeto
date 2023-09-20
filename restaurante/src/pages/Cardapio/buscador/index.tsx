@@ -1,25 +1,25 @@
-import styles from './buscador.modules.scss';
-import {CgSearch} from 'react-icons/cg'
+import styles from './Buscador.module.scss';
+import {CgSearch} from 'react-icons/cg';
+
 interface Props{
-  busca:string
+  busca: string;
   setBusca: React.Dispatch<React.SetStateAction<string>>
 }
 
 
-export default function Buscador({busca,setBusca}:Props){
-  return(
-
+export default function Buscador({busca, setBusca}: Props){
+  return (
     <div className={styles.buscador}>
       <input
-      value={busca}
-      onChange{(evento)=> setBusca(evento.target.value)}
-      />
+        value={busca}
+        onChange={(evento) => setBusca(evento.target.value)}
+        placeholder='Search'
+        />
       <CgSearch
-      size={28}
-      color='4c4d5e'
-
-
+        size={20}
+        color='#4c4d5e'
       />
     </div>
-  )
-  }
+
+)
+}
